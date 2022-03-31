@@ -1,0 +1,57 @@
+#what .items {
+	display: block;
+	padding: 1rem;
+}
+ /* align icon to left  */
+ #what .items .item {
+	display: flex;
+	text-align: left;
+}
+/* position  */
+#what .items .item i {
+	margin: 1.3rem;
+	align-self: center;
+	margin-bottom: 0;
+} 
+/* smartphone  */
+@media( max-width: 500px ) {
+	#navbar{
+		flex-direction: column;
+		align-items: center;
+	}
+	#navbar .logo{
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+	#navbar ul{
+		padding: 0.5 rem;
+	}
+	#showcase .showcase-content{
+		top: 95px;
+	}
+	#who{
+		display: block;
+	}
+	#who .who-img{
+		display: none;
+	}
+	#clients .items img {
+		width:80% ;
+	}
+	#clients .items div:last-child {
+		display: none;
+	}
+	#contact{
+		flex-direction: column;
+	}
+	#contact .map {
+		height: 200px;
+		border-top: 4px #333 solid;
+	}
+}
+
+@media(max-width:568px) {
+	.l-heading{
+		line-height: 3rem;
+	}
+}
